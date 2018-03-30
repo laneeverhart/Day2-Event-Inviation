@@ -1,0 +1,89 @@
+#stripe {
+	background-color: steelblue;
+	height: 100px;
+	text-align: center;
+}
+
+html {
+	height: 100%;
+}
+
+h1 {
+	font: 200px 'Helvetica, sans-serif;'
+  	color: blue;
+  	text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+
+button {
+	margin-top: 2%;
+	margin: 3%;	
+	color:white;
+	background-color:transparent;
+	border:none;
+}
+
+button:hover{
+	color: #CCCED5;
+	transition-duration: .04;
+}
+
+.first-panel {
+background-image: url("https://images.unsplash.com/photo-1493759919241-ba9c01724a60?auto=format&fit=crop&w=751&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-panel {
+  background-image:
+  url("https://images.unsplash.com/photo-1488116438332-30c57aca5d9d?auto=format&fit=crop&w=634&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	color: #4b586d;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+ overflow: hidden;
+ text-align: center;
+ font-size: 5em;
+}
+
+h3 {
+  font: 200 50px/1.3 'Arizonia', Helvetica, sans-serif;
+  color: #4b586d;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+
+h3:before,
+h3:after {
+ background-color: #888f9b;
+  content: "";
+ display: inline-block;
+ height: 2px;
+ position: relative;
+ vertical-align: middle;
+ width: 5%;
+}
+h3:before {
+ right: 0.25em;
+ margin-left: -50%;
+}
+h3:after {
+ left: 0.25em;
+ margin-right: -50%;
+}
